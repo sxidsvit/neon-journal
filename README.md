@@ -37,6 +37,8 @@
 - **Neon & PostgreSQL:** Neon for serverless functions and PostgreSQL for robust database management.
 - **Prisma:** Streamline data access and interactions with  PostgreSQL database using Prisma.
 
+![]()<img src="tables.png" width="450" height="360" style="display: block; margin-left:100px ;"> 
+
 **Configuration:**
 
 Environment variables stored in a `.env` file securely manage API keys and other essential configuration settings for both the client and server sides.
