@@ -27,19 +27,19 @@ const features = [
     icon: Book,
     title: "Rich Text Editor",
     description:
-      "Express yourself with a powerful editor supporting markdown, formatting, and more.",
+      " Unleash your creativity with a robust editor that supports markdown, formatting, and beyond.",
   },
   {
     icon: Sparkles,
     title: "Daily Inspiration",
     description:
-      "Get inspired with daily prompts and mood-based imagery to spark your creativity.",
+      "Experience a daily dose of inspiration with our curated prompts and mood-based imagery.",
   },
   {
     icon: Lock,
     title: "Secure & Private",
     description:
-      "Your thoughts are safe with enterprise-grade security and privacy features.",
+      "Your information is safeguarded with the highest level of security."
   },
 ];
 
@@ -50,12 +50,11 @@ export default async function LandingPage() {
     <div className="relative container mx-auto px-4 pt-16 pb-16">
       {/* Hero Section */}
       <div className="max-w-5xl mx-auto text-center space-y-8">
-        <h1 className="text-5xl md:text-7xl lg:text-8xl gradient-title mb-6">
-          Your Space to Reflect. <br /> Your Story to Tell.
+        <h1 className="text-3xl md:text-5xl lg:text-6xl gradient-title mb-6">
+          Your Space For Deep Thinking. <br /> Your Personal History Unfolded.
         </h1>
         <p className="text-lg md:text-xl text-orange-800 mb-8">
-          Capture your thoughts, track your moods, and reflect on your journey
-          in a beautiful, secure space.
+          Explore your mind and heart in a secure, beautifully designed digital journal.
         </p>
         <div className="relative">
           <div className="absolute inset-0 bg-gradient-to-t from-orange-50 via-transparent to-transparent pointer-events-none z-10" />
@@ -226,8 +225,7 @@ export default async function LandingPage() {
               Start Reflct-ing on Your Journey Today
             </h2>
             <p className="text-lg text-orange-700 mb-8 max-w-2xl mx-auto">
-              Join thousands of writers who have already discovered the power of
-              digital journaling.
+              Join thousands of others who have embraced digital journaling as a more efficient and flexible way to express themselves.
             </p>
             <Button size="lg" variant="journal" className="animate-bounce">
               Get Started for Free <ChevronRight className="ml-2 h-4 w-4" />
